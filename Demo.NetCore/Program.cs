@@ -92,6 +92,12 @@ namespace Demo.NetCore
             if (food.ToLower()== "fish") {
                 base.Eat(food);
             }
+            else {
+                var oldColor = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("    Cat: Stupid human");
+                Console.ForegroundColor = oldColor;
+            }
         }
     }
 }
