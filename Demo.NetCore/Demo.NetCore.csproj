@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="LoongEgg.MvvmCore" Version="1.0.0" />
+    <PackageReference Include="LoongEgg.MvvmCore" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
