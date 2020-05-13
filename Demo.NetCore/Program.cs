@@ -5,6 +5,14 @@ using System.Linq;
 
 namespace Demo.NetCore
 {
+    // Title: [蛋兄]-58 观察者模式，在.Net Core可用的MVVM框架及演示, [.NetStandard]、[委托]、[Event]
+    // 什么是.NetStandard 2.0? 一个同时兼容.Net framework和.Net Core的跨框架框架
+    // TODO: 1.LoongEgg.MvvmCore下载
+    // TODO: 2.控制台输入输出
+    // TODO: 3.被观察者，饲养员的创建，来自框架提供的委托，CodeSnippet
+    // TODO: 4.观察者，动物类的创建
+    // TODO: 5.开始暗中观察
+    // TODO: 6.Virtual虚方法override，只吃鱼的猫
     class Program
     {
         static void Main(string[] args) {
