@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoongEgg.MvvmCore", "LoongE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.NetCore", "Demo.NetCore\Demo.NetCore.csproj", "{DDF9476B-D74C-444E-B316-9539EEB6852B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Wpf", "Demo.Wpf\Demo.Wpf.csproj", "{16EDC578-6C4F-4049-B527-638B82B148B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Wpf", "Demo.Wpf\Demo.Wpf.csproj", "{37FE34A1-C441-403B-8A75-D96C091D80DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{DDF9476B-D74C-444E-B316-9539EEB6852B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF9476B-D74C-444E-B316-9539EEB6852B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF9476B-D74C-444E-B316-9539EEB6852B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16EDC578-6C4F-4049-B527-638B82B148B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16EDC578-6C4F-4049-B527-638B82B148B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16EDC578-6C4F-4049-B527-638B82B148B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16EDC578-6C4F-4049-B527-638B82B148B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FE34A1-C441-403B-8A75-D96C091D80DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FE34A1-C441-403B-8A75-D96C091D80DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FE34A1-C441-403B-8A75-D96C091D80DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FE34A1-C441-403B-8A75-D96C091D80DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
