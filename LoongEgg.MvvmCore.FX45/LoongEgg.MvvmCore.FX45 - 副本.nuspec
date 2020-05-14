@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>LoongEgg.MvvmCore.FX45</id>
+    <version>$version$</version>
+    <title>LoongEgg.MvvmCore.FX45</title>
+    <authors>LoongEgg</authors>
+    <owners>LoongEgg</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/loongEgg/LoongEgg.MvvmCore</projectUrl>
+    <iconUrl></iconUrl>
+    <description>$description$</description>
+    <releaseNotes>专门为.Net Framework4.5发布</releaseNotes>
+    <copyright>Copyright 2020 LoongEgg</copyright>
+    <tags></tags>
+  </metadata>
+</package>
