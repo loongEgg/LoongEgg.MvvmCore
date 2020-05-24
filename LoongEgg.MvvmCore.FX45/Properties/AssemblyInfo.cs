@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("LoongEgg.MvvmCore.FX45")]
-[assembly: AssemblyDescription("一个转为.Net Framework4.5构建的版本")]
+[assembly: AssemblyDescription(".net 4.5以上版本用的MVVM框架")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("LoongEgg")]
 [assembly: AssemblyProduct("LoongEgg.MvvmCore.FX45")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有值，也可以使用以下所示的 "*" 预置版本号和修订号
 //通过使用 "*"，如下所示:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.0")]
+[assembly: AssemblyFileVersion("1.0.1.0")]

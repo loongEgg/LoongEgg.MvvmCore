@@ -40,7 +40,7 @@ namespace LoongEgg.MvvmCore.FX45
         /// 主构造器
         /// </summary>
         /// <param name="executeMethod">干活的方法</param>
-        /// <param name="canExecuteMethod">判断可以干活的方法</param>
+        /// <param name="canExecuteMethod">判断可以干活的方法，会返回布尔值</param>
         public DelegateCommand(Action<T> executeMethod, Func<T, bool> canExecuteMethod) {
             _ExecuteMethod = executeMethod ?? throw new ArgumentNullException("execute 不能为空");
             _CanExecuteMethod = canExecuteMethod;

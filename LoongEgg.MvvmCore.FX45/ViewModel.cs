@@ -12,8 +12,5 @@ namespace LoongEgg.MvvmCore.FX45
     /// <summary>
     /// ViewModel的基类
     /// </summary>
-    public abstract class ViewModel : ObservableObject
-    {
-
-    }
+    public abstract class ViewModel : ObservableObject { }
 }

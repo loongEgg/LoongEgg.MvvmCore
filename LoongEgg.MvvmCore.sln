@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Wpf", "Demo.Wpf\Demo.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoongEgg.MvvmCore.FX45", "LoongEgg.MvvmCore.FX45\LoongEgg.MvvmCore.FX45.csproj", "{A214EF50-BADA-4E65-8C9C-983FF38B88D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Wpf.FX45", "Demo.Wpf.FX45\Demo.Wpf.FX45.csproj", "{3468BD9D-BD2F-4D07-B447-69083B0F44E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoongEgg.MvvmCore.FX45.Test", "LoongEgg.MvvmCore.FX45.Test\LoongEgg.MvvmCore.FX45.Test.csproj", "{143B2DE9-37CD-4520-85B3-A8B892005E05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A214EF50-BADA-4E65-8C9C-983FF38B88D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A214EF50-BADA-4E65-8C9C-983FF38B88D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A214EF50-BADA-4E65-8C9C-983FF38B88D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3468BD9D-BD2F-4D07-B447-69083B0F44E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3468BD9D-BD2F-4D07-B447-69083B0F44E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3468BD9D-BD2F-4D07-B447-69083B0F44E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3468BD9D-BD2F-4D07-B447-69083B0F44E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143B2DE9-37CD-4520-85B3-A8B892005E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143B2DE9-37CD-4520-85B3-A8B892005E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B2DE9-37CD-4520-85B3-A8B892005E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143B2DE9-37CD-4520-85B3-A8B892005E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

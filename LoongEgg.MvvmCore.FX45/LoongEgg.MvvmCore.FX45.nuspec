@@ -8,11 +8,10 @@
     <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
-    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <projectUrl>https://github.com/loongEgg/LoongEgg.MvvmCore/</projectUrl> 
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2020</copyright>
-    <tags>Tag1 Tag2</tags>
+    <releaseNotes>增加了IoC容器</releaseNotes>
+    <copyright>Copyright 2020 LoongEgg</copyright>
+    <tags>MVVM IoC</tags>
   </metadata>
 </package>
