@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace LoongEgg.MvvmCore
 {
-     /// <summary>
+    /// <summary>
     /// 会引发属性改变事件通知的对象
     /// </summary>
     public abstract class ObservableObject : INotifyPropertyChanged

@@ -6,15 +6,12 @@
  | 更改记录：
  |			 时间		版本		更改
  */
+
 namespace LoongEgg.MvvmCore
 {
 
     /// <summary>
     /// ViewModel的基类
     /// </summary>
-    public abstract class ViewModel : ObservableObject
-    {
-
-    }
-
+    public abstract class ViewModel : ObservableObject { }
 }

@@ -1,14 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>一个跨平台的MVVM核心框架，Base on .Net Standard 2.0 C#. Minimal platform required: .Net framework4.6.1, .NET Core 2.0.</Description>
-    <PackageReleaseNotes>IoC容器新增</PackageReleaseNotes>
+    <TargetFrameworks>netstandard2.0;net4.5</TargetFrameworks>
+    <Description>一个跨平台的MVVM核心框架，最低依赖为.Net4.5和.NetStandard(.NetCore2.0 &amp; .Net4.6.1)</Description>
+    <PackageReleaseNotes>升级到2.0时代，真正的跨平台和跨框架</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/loongEgg/LoongEgg.MvvmCore</RepositoryUrl>
     <PackageProjectUrl>https://github.com/loongEgg/LoongEgg.MvvmCore</PackageProjectUrl>
-    <Version>1.0.3</Version>
+    <Version>2.0.0-alp</Version>
     <PackageTags>MVVM</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>LoongEgg</Authors>
+    <PackageLicenseUrl>https://github.com/loongEgg/LoongEgg.MvvmCore/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
 </Project>
