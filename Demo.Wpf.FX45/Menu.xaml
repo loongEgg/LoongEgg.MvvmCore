@@ -1,0 +1,34 @@
+﻿<Window
+    x:Class="Demo.Wpf.FX45.Menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Demo.Wpf.FX45"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="360"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <!--  Button 基本样式  -->
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+            <Setter Property="MaxHeight" Value="50" />
+            <Setter Property="Width" Value="233" />
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="Command" Value="{Binding WindowShowCommand}" />
+            <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}}" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Windows1" />
+            <Button Content="Windows2" />
+            <Button Style="{x:Null}" Content="Windows2" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

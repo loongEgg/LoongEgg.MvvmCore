@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using LoongEgg.LoongLog.FX45;
 using System.Windows;
 
 namespace Demo.Wpf.FX45
@@ -13,5 +8,10 @@ namespace Demo.Wpf.FX45
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            Logger.Enable(Loggers.DebugLogger);
+        }
     }
 }

@@ -27,11 +27,23 @@ namespace LoongEgg.MvvmCore.FX45.Test
         [TestMethod]
         public void GetSingleton()
         {
+            IoC.ClearVM();
             var vm1 = IoC.GetSingleton<TestViewModel>();
             var vm2 = IoC.GetSingleton<TestViewModel>();
 
             Assert.AreEqual(1, IoC.GetViewModels().Count);
-            Assert.ReferenceEquals(vm1, vm2);
+            Assert.IsTrue(ReferenceEquals(vm1, vm2));
+        }
+
+        [TestMethod]
+        public void EnsureCreatAssemblyVM()
+        {
+            IoC.ClearVM();
+
+            var vm1 = IoC.EnsureCreatAssemblyVM(this.GetType().Assembly, this.GetType().Namespace);
+            var vm2 = IoC.EnsureCreatAssemblyVM(this.GetType().Assembly, this.GetType().Namespace);
+            Assert.AreEqual(1, IoC.GetViewModels().Count);
+            Assert.IsTrue(ReferenceEquals(vm1, vm2)); 
         }
     }
 }

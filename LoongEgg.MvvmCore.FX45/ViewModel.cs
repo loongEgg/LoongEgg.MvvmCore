@@ -6,6 +6,7 @@
  | 更改记录：
  |			 时间		版本		更改
  */
+
 namespace LoongEgg.MvvmCore.FX45
 {
 

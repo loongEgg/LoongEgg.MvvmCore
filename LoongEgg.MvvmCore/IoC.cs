@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 
 /* 
  | 个人微信：InnerGeeker
@@ -10,7 +9,7 @@ using System.Reflection;
  | 更改记录：
  |			 时间		版本		更改
  */
-namespace LoongEgg.MvvmCore.FX45
+namespace LoongEgg.MvvmCore
 {
     /// <summary>
     /// 依赖注入容器
@@ -18,7 +17,6 @@ namespace LoongEgg.MvvmCore.FX45
     public static class IoC
     {
         private volatile static Dictionary<string, ViewModel> _Instances = new Dictionary<string, ViewModel>();
-        private volatile static Dictionary<string, AssemblyVM> _AssemblyVMInstances = new Dictionary<string, AssemblyVM>();
 
         /// <summary>
         /// 获取所有ViewModel的实例
@@ -47,36 +45,6 @@ namespace LoongEgg.MvvmCore.FX45
             }
             return _Instances[name] as T;
         }
-
-        /// <summary>
-        /// 获取指定类型<see cref="AssemblyVM"/>的单例, 该单例须实现<see cref="IAssembleConfig"/>
-        /// </summary> 
-        /// <param name="assembly">目标程序集</param>
-        /// <param name="nspace">目标命名空间</param>
-        /// <returns>指定的ViewModel派生类</returns>
-        public static AssemblyVM EnsureCreatAssemblyVM(Assembly assembly, string nspace)
-        {
-            string name = assembly + "." + nspace;
-            if (!_AssemblyVMInstances.Keys.Contains(name))
-            {
-                lock (_Lock)
-                {
-                    if (!_AssemblyVMInstances.Keys.Contains(name))
-                    {
-                        _AssemblyVMInstances.Add(name, new AssemblyVM(assembly, nspace));
-                    }
-                }
-            }
-            return _AssemblyVMInstances[name];
-        }
-
-        /// <summary>
-        /// 清空所有<see cref="ViewModel"/>
-        /// </summary>
-        public static void ClearVM()
-        {
-            _Instances.Clear();
-            _AssemblyVMInstances.Clear();
-        }
+         
     }
 }
